@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Footer.js */
+.footer {
+	background-color: #212529;
+  position: absolute;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.no-gutters {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.footertext {
+	color: #fff;
+  position: relative;
+  bottom: 0px;
+  right: 10px;
+  text-align: right;
+}
+
+.feedbacktext {
+  color: #fff;
+  position: relative;
+  bottom: 0px;
+  left: 10px;
+}
+
+
+/* Contact.js */
+
+.contactimg {
+	width: 80%;
+}
+
+/* Gallery */
+.carousel2-images {
+	width: 50%;
+}
+
+.gallerycarousel {
+	padding-top: 5em !important;
+	padding-bottom: 5em !important;
+}
