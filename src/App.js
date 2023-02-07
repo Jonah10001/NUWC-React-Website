@@ -8,6 +8,7 @@ import Calendar from './components/Calendar';
 import Footer from './components/Footer';
 import Registration from './components/Registration';
 import Bracket from './components/bracket';
+import Signup from './components/Signup';
 
 
 //import FAQ from './components/FAQ';
@@ -22,13 +23,15 @@ class App extends Component {
       <div>
         <Navbar />
         <Switch>
-          <Route path="/registration" exact component={Registration} />
+          <Route path="/signup" exact component={Signup} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/gallery" exact component={Gallery} />
           <Route path="/calendar" exact component={Calendar} />
           <Route path="/" exact component={Homepage} />
         </Switch>
+
         <Footer />
+
       </div>
     );
   }
