@@ -3,6 +3,16 @@
     width: 200px;
 }
 
+.right-side-nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
+}
+
 a {
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.icons {
+    margin-top: 12px;
 }

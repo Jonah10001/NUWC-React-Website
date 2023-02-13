@@ -7,12 +7,8 @@
   margin-left: 15px;
 } */
 
-a {
+.contact-email {
   font-size: 15px;
-}
-
-p {
-  margin-bottom: 0;
 }
 
 .page-wrap {
@@ -33,12 +29,13 @@ p {
     padding-right: 3%;
     padding-top: 25px;
     padding-bottom: 5px;
-  }
-
-  .contact-content {
     width: 33%;
     height: 350px;
     text-align: center;
+  }
+
+  .contact-content p {
+    margin: 0;
   }
 
   .profilepic {

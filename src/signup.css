@@ -1,4 +1,12 @@
-img {
-    width: 50%;
-    height: 50%;
+#fifa img {
+    width: 25%;
+    height: 25%;
+}
+
+.shebelieves img {
+    width: 40%;
+}
+
+.event *{
+    margin: 20px;
 }
