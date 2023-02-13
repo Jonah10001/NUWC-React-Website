@@ -10,14 +10,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "4.17.1",
     "mdbreact": "^5.2.0",
+    "node-js": "^1.0.0",
     "node-modules": "^1.0.1",
     "react-medium-image-zoom": "^5.1.2",
     "react-router-dom": "^6.8.1",
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
-    "node-js": "18.14.0"
+    "request": "2.88.2"
   },
+  "engines": {
+    "node": "1.0.0",
+    "npm": "9.4.2"
+},
   "browserslist": {
     "production": [
       ">0.2%",
