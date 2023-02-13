@@ -1,49 +1,75 @@
-.bord-bottom {
-  border-bottom: 3px solid;
-  border-color: #da6914;
-}
-.bord-bottom-right {
-  border-bottom: 3px solid;
-  border-right: 3px solid;
-  border-color: #da6914;
-}
-.bord-bottom-left {
-  border-bottom: 3px solid;
-  border-left: 3px solid;
-  border-color: #da6914;
-}
-.bord-right {
-  border-right: 3px solid;
-  border-color: #da6914;
-}
-.bord-left {
-  border-left: 3px solid;
-  border-color: #da6914;
-}
-.bord-full {
-  border: 3px solid;
-  border-color: #da6914;
-}
-.t-center {
-  text-align: center;
-}
-.t-right{
-  text-align: right;
-}
-.label {
-  text-align: center;
-  font-weight: bold;
-}
-.col-4 {
-  font-size: 8pt;
-}
-.title-photo{
-  margin: auto;
-  display: block;
-  height: 30vh;
-  width: 25vw;
-}
-.bord-dotted{
-  border-bottom: 1px dashed;
-  border-color: grey;
-}
+.round {
+  float: left;
+  }
+  .round.r-of-8 {
+  width: calc(100% / 8);
+  }
+  .round.r-of-4 {
+  width: calc(100% / 4);
+  }
+  .round.r-of-2 {
+  margin-top: 25px;
+  width: calc(100% / 2);
+  }
+  .bracket-game {
+  max-width: 125px;
+  margin: 10px 0;
+  }
+  .player {
+  min-width: 100px;
+  border: 1px solid #AAA;
+  padding-left: 10px;
+  }
+  .player.top {
+  border-radius: 3px 3px 0 0;
+  }
+  .player.bot {
+  border-radius: 0 0 3px 3px;
+  }
+  .player .score {
+  display: inline;
+  float: right;
+  border-left: 1px solid #AAA;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #EEE;
+  }
+  .player.win {
+  background-color: #B8F2B8;
+  }
+  .player.loss {
+  background-color: #F2B8B8;
+  }
+  .connectors {
+  float: left;
+  min-width: 35px;
+  }
+  .connectors.r-of-2 .top-line {
+  position: relative;
+  top: 30px;
+  width: 17px;
+  border: 1px solid #AAA;
+  }
+  .connectors.r-of-2 .bottom-line {
+  position: relative;
+  top: 81px;
+  width: 17px;
+  border: 1px solid #AAA;
+  }
+  .connectors.r-of-2 .vert-line {
+  position: relative;
+  top: 26px;
+  left: -16px;
+  height: 55px;
+  border-right: 2px solid #AAA;
+  }
+  .connectors.r-of-2 .next-line {
+  position: relative;
+  top: -4px;
+  left: 17px;
+  width: 17px;
+  border: 1px solid #AAA;
+  }
+  .clear {
+  clear: both;
+  }

@@ -1,37 +1,28 @@
 import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
 import Gallery from './components/gallery/Gallery';
-import Contact from './components/Contact';
+import Contact from './components/Contact.js';
 import Calendar from './components/Calendar';
+import Bracket from './components/bracket.js';
 import Footer from './components/Footer';
-import Registration from './components/Registration';
-import Bracket from './components/bracket';
 import Signup from './components/Signup';
-
-
-//import FAQ from './components/FAQ';
-//import About from './components/About';
-//import Gonzo from './components/Gonzo';
-//import Sponsors from './components/Sponsors';
-//import Info from './components/Info';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Navbar />
-        <Switch>
-          <Route path="/signup" exact component={Signup} />
-          <Route path="/contact" exact component={Contact} />
-          <Route path="/gallery" exact component={Gallery} />
-          <Route path="/calendar" exact component={Calendar} />
-          <Route path="/" exact component={Homepage} />
-        </Switch>
-
+        <Routes>
+              <Route path="/" exact element={<Homepage />} />
+              <Route path="/signup" exact element={<Signup />} />
+              <Route path="/bracket" exact element={<Bracket />} />
+              <Route path="/contact" exact element={<Contact />} />
+              <Route path="/gallery" exact element={<Gallery />} />
+              <Route path="/calendar" exact element={<Calendar />} />
+        </Routes>
         <Footer />
-
       </div>
     );
   }

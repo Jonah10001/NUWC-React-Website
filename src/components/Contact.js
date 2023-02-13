@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import '../contact.css'
 import pres from '../assets/img/prab.png'
-import vp from '../assets/img/abe_cruz_profile-1-207x300.jpg'
+import vp from '../assets/img/abe.jpg'
 import sec from '../assets/img/joshua.png'
-import Footer from './Footer';
 
 //import grouppic from '../assets/img/grouppic.jpeg';
 
@@ -40,6 +39,6 @@ class Contact extends Component {
 			</div>
 		);
 	}
-}
+} 
 
 export default Contact;
