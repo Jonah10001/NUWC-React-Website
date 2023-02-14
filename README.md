@@ -21,3 +21,13 @@ Nice to have:
 - Hover over calendar for more information
 - Figure out other things to make the website a bit more interactable
 >>>>>>> 4ba50abe835dd33083a3de33544810122432ead9
+
+extra stuff:
+- add korea logo
+- make sure that bracket is ready for futsal
+- set up registration for futsal
+- fix gallery page
+- finish exec page
+- fix it for phone
+- make standings for futsal tournament
+- update calendar

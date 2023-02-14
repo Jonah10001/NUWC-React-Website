@@ -8,6 +8,10 @@
   max-height: 10vh;
 }
 
+.homepagetext a{
+  font-size: 20px;
+}
+
 .mainstatement {
   text-align: center;
   margin-left: 10%;

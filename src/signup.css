@@ -8,5 +8,9 @@
 }
 
 .event *{
+    margin: 12px;
+}
+
+.event h1 {
     margin: 20px;
 }

@@ -97,7 +97,7 @@ class Homepage extends Component {
         <div className="flex-container panel4">
           <div className="container containerhomepg">
             <p className="lead homepagetext">World Cup recruits freshmen, sophomores, juniors, and seniors
-            every year in the fall. To get in touch, email us at northwesternworldcup@gmail.com,
+            every year in the fall. To get in touch, email us at <a class="contact-email" href="mailto: northwesternworldcup@gmail.com" target="_blank">northwesternworldcup@gmail.com</a>,
             or reach out to one of our exec board members through the contact tab!
             </p>
           </div>
