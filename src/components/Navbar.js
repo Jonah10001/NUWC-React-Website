@@ -44,7 +44,8 @@ class Navbar extends Component {
 									Menu
 									</a>
 									<div className="dropdown-menu" aria-labelledby="navbarDropdown">
-									<Link className="dropdown-item" to={'/signup'}>Next Event</Link>
+									<Link className="dropdown-item" to={'/nextevent'}>Next Event</Link>
+									<Link className="dropdown-item" to={'/standings'}>Standings</Link>
 									<Link className="dropdown-item" to={'/bracket'}>Brackets</Link>
 									<Link className="dropdown-item" to={'/calendar'}>Calendar</Link>
 									<Link className="dropdown-item" to={'/gallery'}>Gallery</Link>

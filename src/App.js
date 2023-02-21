@@ -7,7 +7,9 @@ import Contact from './components/Contact.js';
 import Calendar from './components/Calendar';
 import Bracket from './components/bracket.js';
 import Footer from './components/Footer';
+import NextEvent from './components/NextEvent.js';
 import Signup from './components/Signup';
+import Standings from './components/Standings.js';
 
 class App extends Component {
   render() {
@@ -16,7 +18,8 @@ class App extends Component {
         <Navbar />
         <Routes>
               <Route path="/" exact element={<Homepage />} />
-              <Route path="/signup" exact element={<Signup />} />
+              <Route path="/nextevent" exact element={<NextEvent />} />
+              <Route path="/standings" exact element={<Standings />} />
               <Route path="/bracket" exact element={<Bracket />} />
               <Route path="/contact" exact element={<Contact />} />
               <Route path="/gallery" exact element={<Gallery />} />

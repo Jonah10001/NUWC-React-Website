@@ -1,0 +1,29 @@
+#fifa img {
+    width: 25%;
+    height: 25%;
+}
+
+.event .content {
+    display: flex;
+    justify-content: center;
+}
+
+.event .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.event *{
+    margin: 12px;
+}
+
+.event a {
+    margin: 0;
+}
+
+.event h1 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 40px;
+}

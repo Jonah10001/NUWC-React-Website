@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
-import '../signup.css'
-import shebelieves from '../assets/img/shebelieves.jpg'
 
 class Signup extends Component {
 	render() {
 		return (
-			<body className = "shebelieves">
-				<center className = "event">
-					<h1>Come and Support the Women's National Team!</h1>
-					<p>Join us in supporting the USWNT as they play against Japan in the She Believes Cup!</p>
-					<img src={shebelieves} alt="Women's Soccer Event"></img>
-					<p>Date: Sunday 02/19/2022</p>
-					<p>Time: 2:30PM</p>
-					<p>Location: Tech M152</p>
-					<p>Don't miss out on the chance to show your support and have a great time!</p>
-					<p>Plus, baked goods will be provided!</p>
-				</center>
-			</body>
+			<div>
+				<h1>Futsal Tournament Sign-Up</h1>
+				<form action="[Insert Link to Google Form]" method="post">
+					<label for="full-name">Full Name:</label>
+					<input type="text" id="full-name" name="full-name" required></input><br></br>
+					<label for="team-name">Team Name:</label>
+					<input type="text" id="team-name" name="team-name" required></input><br></br>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required></input><br></br>
+					<label for="phone-number">Phone Number:</label>
+					<input type="tel" id="phone-number" name="phone-number" required></input><br></br>
+					<input type="submit" value="Submit"></input>
+				</form>
+			</div>
 		);
 	}
 }

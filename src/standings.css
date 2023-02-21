@@ -1,0 +1,28 @@
+.standings {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.standings h1 {
+    margin: 25px;
+}
+.standings .cell {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    }
+.standings .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+.standings .row {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+  
