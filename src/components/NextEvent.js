@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../nextevent.css'
-import shebelieves from '../assets/img/FutsalTournament2023.png'
+import fifaSingles from '../assets/img/fifa-singles.png'
 
 class NextEvent extends Component {
 	render() {
@@ -10,14 +10,14 @@ class NextEvent extends Component {
 					<h1>Sign up for the Fifa Singles tournament this Sunday in Kresge!</h1>
 					<div class="content">
 						<div>
-							<img src={shebelieves} alt="Women's Soccer Event"></img>
+							<img class="poster" src={fifaSingles} alt="Fifa Singles Tournament"></img>
 						</div>
 						<div class="info">
-							<p>Date: Saturday 02/25/2023 </p>
-							<p>Time: 11:00AM - 4:00PM</p>
-							<p>Location: SPAC Basketball Courts</p>
+							<p>Date: Sunday 04/09/2023 </p>
+							<p>Time: 10:00AM - 1:00PM</p>
+							<p>Location: Kresge 2415</p>
 							<p>Don't miss out on the chance to win major prizes!</p>
-							<p>Sign up <a href="https://forms.gle/bVJEWZv2xZ5yAQGr9">here</a>!</p>
+							<p>Sign up <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzLhMolgeqEkeYEXLNyycoCJ23Qg83AHcR6xanZjRCER6Vsg/viewform">here</a>!</p>
 						</div>
 					</div>
 				</center>
