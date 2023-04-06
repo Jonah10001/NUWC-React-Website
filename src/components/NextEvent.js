@@ -7,7 +7,7 @@ class NextEvent extends Component {
 		return (
 			<body className = "shebelieves">
 				<center className = "event">
-					<h1>Come join us at SPAC this Saturday for our annual Futsal Tournament!</h1>
+					<h1>Sign up for the Fifa Singles tournament this Sunday in Kresge!</h1>
 					<div class="content">
 						<div>
 							<img src={shebelieves} alt="Women's Soccer Event"></img>
