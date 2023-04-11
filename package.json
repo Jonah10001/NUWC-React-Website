@@ -11,6 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "4.17.1",
+    "google-auth-library": "^8.7.0",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^114.0.0",
     "mdbreact": "^5.2.0",
     "node-js": "^1.0.0",
     "node-modules": "^1.0.1",
@@ -23,7 +26,7 @@
   "engines": {
     "node": "v18.14.0",
     "npm": "9.4.2"
-},
+  },
   "browserslist": {
     "production": [
       ">0.2%",

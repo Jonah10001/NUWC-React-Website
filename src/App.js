@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component , useState, useEffect} from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
@@ -10,6 +10,8 @@ import Footer from './components/Footer';
 import NextEvent from './components/NextEvent.js';
 import Signup from './components/Signup';
 import Standings from './components/Standings.js';
+
+
 
 class App extends Component {
   render() {

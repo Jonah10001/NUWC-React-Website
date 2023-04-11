@@ -1,23 +1,28 @@
 import React, { Component } from 'react';
 import '../nextevent.css'
 import fifaSingles from '../assets/img/fifa-singles.png'
+import bibimbap from '../assets/img/bibimbap.jpg'
+import blowUpGoal from '../assets/img/blowup_goal.jpg'
+import koreanDance from '../assets/img/korean_dance.jpg'
 
 class NextEvent extends Component {
 	render() {
 		return (
 			<body className = "shebelieves">
 				<center className = "event">
-					<h1>Sign up for the Fifa Singles tournament this Sunday in Kresge!</h1>
+					<h1>Come out to NUWC's annual cultural event this Wednesday on Deering Meadow!</h1>
 					<div class="content">
 						<div>
-							<img class="poster" src={fifaSingles} alt="Fifa Singles Tournament"></img>
+							<img class="poster" src={bibimbap} alt="Fifa Singles Tournament"></img>
+							<img class="poster" src={blowUpGoal} alt="Fifa Singles Tournament"></img>
+							<img class="poster" src={koreanDance} alt="Fifa Singles Tournament"></img>
 						</div>
 						<div class="info">
-							<p>Date: Sunday 04/09/2023 </p>
-							<p>Time: 10:00AM - 1:00PM</p>
-							<p>Location: Kresge 2415</p>
-							<p>Don't miss out on the chance to win major prizes!</p>
-							<p>Sign up <a href="https://docs.google.com/forms/d/e/1FAIpQLSfzLhMolgeqEkeYEXLNyycoCJ23Qg83AHcR6xanZjRCER6Vsg/viewform">here</a>!</p>
+							<p>Date: Wednesday 04/12/2023 </p>
+							<p>Time: 11:00AM - 4:00PM</p>
+							<p>Location: Dearing Meadow</p>
+							<p>Experience all things Korea as we highlight our first Asian host nation in five years!</p>
+							<p>Music, Food, Games, and Beverages will be provided</p>
 						</div>
 					</div>
 				</center>
