@@ -19,7 +19,7 @@ class NextEvent extends Component {
 						</div>
 						<div class="info">
 							<p>Date: Wednesday 04/12/2023 </p>
-							<p>Time: 11:00AM - 4:00PM</p>
+							<p>Time: 12:00AM - 3:00PM</p>
 							<p>Location: Dearing Meadow</p>
 							<p>Experience all things Korea as we highlight our first Asian host nation in five years!</p>
 							<p>Music, Food, Games, and Beverages will be provided</p>
